@@ -112,4 +112,13 @@ section {
   .scroll {
     display: none;
   }
+
+  .fix-bnr > li > a {
+    font-size: 0.8rem;
+    padding: 30px 0;
+    line-height: 0;
+  }
+  .tel {
+    font-size: 0.8rem;
+  }
 }

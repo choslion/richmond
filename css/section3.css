@@ -61,7 +61,7 @@
   background-size: cover;
 }
 
-.swiper {
+#main3 .swiper {
   display: none;
   width: 100%;
   height: 100%;
@@ -160,31 +160,7 @@
   #main3 > .imgs {
     display: none;
   }
-
-  /* #main3 > .imgs {
-    width: 100%;
-  }
-
-  #main3 > .imgs > div {
-    height: 500px;
-    margin-left: 0px;
-    margin-top: 40px !important;
-  }
-  #main3 > .imgs > div:first-child {
-    display: block;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #main3 > .imgs > div:nth-child(2) {
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #main3 > .imgs > div:nth-child(3) {
-  } */
-  .swiper {
+  #main3 .swiper {
     display: block;
   }
 }

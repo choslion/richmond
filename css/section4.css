@@ -10,6 +10,7 @@
 #main4 .swiper {
   width: 300px;
   height: 380px;
+  display: none;
 }
 
 .main4-bg {
@@ -35,12 +36,6 @@
   text-align: center;
   color: #fff;
 }
-
-/* .list-3 {
-  margin-top: 60px;
-  display: flex;
-  justify-content: space-between;
-} */
 
 .main4-slide {
   display: flex;
@@ -106,15 +101,13 @@
     width: 100%;
   }
 
-  /* .list-3 {
-    margin-top: 50px;
-    align-items: center;
-    flex-direction: column;
-  } */
-
   .main4-slide {
     flex-direction: column;
     align-items: center;
+  }
+
+  #main4 .swiper {
+    display: block;
   }
 
   .slide-img {
